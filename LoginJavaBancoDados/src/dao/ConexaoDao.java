@@ -10,9 +10,9 @@ import javax.swing.JOptionPane;
  */
 public class ConexaoDao {
 
-    private static final String URL = "jdbc:mysql://localhost:3306/nome_database";
-    private static final String USER = "sua_senha";
-    private static final String PASSWORD = "sua_senha";
+    private static final String URL = "jdbc:mysql://localhost:3306/user";
+    private static final String USER = "root";
+    private static final String PASSWORD = "root";
 
     private static java.sql.Connection conn;
 
